@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/prop-assignment/static/css/main.ca2214c4.css",
+    "main.js": "/prop-assignment/static/js/main.68609b74.js",
+    "static/js/592.5960349f.chunk.js": "/prop-assignment/static/js/592.5960349f.chunk.js",
+    "index.html": "/prop-assignment/index.html",
+    "main.ca2214c4.css.map": "/prop-assignment/static/css/main.ca2214c4.css.map",
+    "main.68609b74.js.map": "/prop-assignment/static/js/main.68609b74.js.map",
+    "592.5960349f.chunk.js.map": "/prop-assignment/static/js/592.5960349f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca2214c4.css",
+    "static/js/main.68609b74.js"
+  ]
+}

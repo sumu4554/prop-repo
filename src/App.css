@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.title {
+  text-align: center;
+}
+.card {
+  width: 280px;
+  height: 400px;
+  overflow: hidden;
+  padding: 1.5rem 0.75rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card-img {
+  width: 180px;
+  height: 200px;
+  box-sizing: border-box;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.book-title {
+  font-size: 16px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.book-author {
+  font-size: 14px;
+  color: tomato;
+  text-align: left;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.book-ratings {
+  color: goldenrod;
+  font-size: 18px;
+  text-align: left;
+}
+.book-par {
+  font-size: 11px;
+  color: rgb(170, 170, 170);
+}
+@media screen and (max-width: 480px) {
+  .App {
+    text-align: center;
+    display: block;
+    margin: 16px 22%;
+  }
+  .title {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 28px;
+  }
+  .App {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: 28px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 36px;
+  }
+  .App {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 220px;
+    height: 400px;
+    overflow: hidden;
+    padding: 1.5rem 0.75rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  .card-img {
+    width: 140px;
+    height: 180px;
+    box-sizing: border-box;
+  }
+}
